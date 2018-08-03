@@ -1,0 +1,47 @@
+@import '../include_helpers';
+
+.top-navbar-container {
+  background: $brand-ash;
+  .navbar-main {
+    min-height: 8rem;
+  }
+  .navbar-logo {
+
+  }
+
+  .navbar-menu {
+
+  }
+  .menu-item a {
+    display: block;
+    padding: 1.5rem 1rem;
+    margin: 0 .5rem;
+    &:after {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 0;
+      background: $brand-main;
+      transition: .3s;
+    }
+    &:hover{
+      &:after {
+        width: 100%;
+        transition: .7s;
+      }
+    }
+  }
+  &.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3000;
+    .navbar-main {
+      min-height: 4rem;
+    }
+    .navbar-logo img {
+      max-height: 3rem;
+    }
+  }
+}

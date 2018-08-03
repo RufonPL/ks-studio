@@ -1,0 +1,36 @@
+@import '../include_helpers';
+
+.footer {
+  &-container {
+    padding-top: 5rem;
+    background: $brand-ash;
+  }
+
+  &-header {
+    font-size: 1.1rem;
+    font-weight: 700;
+
+    &:before {
+      content: '';
+      position: relative;
+      display: inline-block;
+      width: 0.2rem;
+      height: 0.7rem;
+      margin-right: 1.5rem;
+      background: $brand-main;
+    }
+  }
+
+  &-menu {
+    list-style: none;
+  }
+
+  &-lower {
+    min-height: 5rem;
+    background: $brand-main;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

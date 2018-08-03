@@ -1,0 +1,28 @@
+
+// bootstrap3 breakpoints mixins + num arg
+// eg. include breakpoint(sm), include breakpoint(1000px)
+
+@mixin breakpoint($class) {
+
+  $type: type-of($class);
+
+  @if $class == xs {
+    @media (max-width: 575px) { @content; }
+  }
+  @else if $class == sm {
+    @media (max-width: 767px) { @content; }
+  }
+  @else if $class == md {
+    @media (max-width: 991px) { @content; }
+  }
+  @else if $class == lg {
+    @media (max-width: 1199px) { @content; }
+  }
+  @else if $type == number {
+    $query: "(max-width: #{$class})";
+    @media #{$query} { @content; }
+  }
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg, number";
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "maciek/domwaluty",
+  "authors": [
+    {
+      "name": "partyka1",
+      "email": "maciek@partyka.io"
+    }
+  ],
+  "require": {
+    "filp/whoops": "^2.1"
+  }
+}

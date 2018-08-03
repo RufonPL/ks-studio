@@ -1,0 +1,18 @@
+
+// sample image invoke:
+// background-image: url('../images/dashicon-kfc.png');
+
+// globals imports
+
+@import 'global_vars';
+@import 'mixins';
+@import 'fontface';
+@import 'global_styles';
+@import 'modules/main-classes';
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext');
+
+body {
+  font-family: 'Lato', sans-serif;
+}

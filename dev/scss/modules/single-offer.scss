@@ -1,0 +1,17 @@
+.single-offer {
+  text-align: center;
+  &-header {
+    margin-top: 1rem;
+  }
+
+  &-gallery {
+
+    &-item {
+      max-width: 100%;
+      min-height: 20rem;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 2rem;
+    }
+  }
+}

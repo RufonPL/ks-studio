@@ -1,0 +1,59 @@
+
+// styles
+
+html {
+   font-size: 16px;
+
+   @include breakpoint(lg) {
+     font-size: 15px;
+   }
+   @include breakpoint(md) {
+     font-size: 14px;
+   }
+   @include breakpoint(sm) {
+     font-size: 12px;
+   }
+ }
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.4;
+  color: $brand-smoke;
+}
+p {
+  line-height: 1.6;
+  color: $brand-smoke;
+}
+
+h1 { font-size: 2.5rem;}
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+a, a:hover, a:active, a:focus, button, button:hover, button:active, button:focus, input:hover, input:active, input:focus, textarea:focus, a[href^=tel],div:active,div:focus {
+  outline: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  color: #333333;
+  transition: .3s;
+  &:hover {
+    color: $brand-main;
+    transition: .3s color;
+  }
+}
+
+
+@keyframes loaded {
+  0%   {opacity: 1;}
+  95% {opacity: 0;}
+}
+
+.onload.loaded {
+  opacity: 0;
+  animation-name: loaded;
+  animation-duration: .5s;
+}
