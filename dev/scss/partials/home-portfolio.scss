@@ -1,0 +1,45 @@
+@import '../include_helpers';
+
+.portfolio {
+
+  &-row {
+    &-header {
+      background: $brand-primary;
+      min-height: 13rem;
+      text-align: center;
+      align-items: center;
+    }
+  }
+
+  &-gallery {
+    &-item {
+      min-height: 20rem;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: .5s;
+        height: 100%;
+        padding: 1rem;
+        &:hover {
+          opacity: 1;
+          transition: .3s;
+          background: rgba(0,0,0,0.1);
+        }
+      }
+    }
+  }
+
+  &-seemore {
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,5 +1,19 @@
 .section--header {
-  font-size: 10px;
   color: $brand-smoke;
+  font-size: 0.6rem;
   text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+  .section-header__white {
+    color: #fff;
+  }
+}
+
+.section--box-outline {
+  display: inline-block;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  padding: 1rem;
 }
