@@ -14,4 +14,5 @@ $(document).ready(function(){
     $('.slick-hero').slick({
 
     });
+    console.log("slick");
 });
