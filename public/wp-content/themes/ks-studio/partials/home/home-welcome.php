@@ -2,14 +2,14 @@
     <div class="row">
         <div class="col-12 col-md-8 welcome-content">
             <h5 class="section--header">ABOUT US</h5>
-            <h2>
-                01 - WELCOME TO FUNIMAL
+            <h2 class="section--box-outline outline__grey">
+                01 <span class="sep"></span> WELCOME TO <span>FUNIMAL</span>
             </h2>
-            <p>
+            <p class="welcome-content-copy">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores blanditiis consequuntur dicta dolor error esse ex facilis fugiat inventore itaque iure minima neque nulla officiis praesentium, quas quasi quos recusandae rem sequi sint sit tempora! Culpa dignissimos distinctio doloremque doloribus eum fugit impedit, libero magnam omnis totam! Corporis, eveniet!
             </p>
-            <a href="#">
-                READ MORE
+            <a class="btn-arrow" href="#">
+                READ MORE <i class="fa fa-long-arrow-right"></i>
             </a>
         </div>
         <div class="col-12 col-md-4 welcome-side">

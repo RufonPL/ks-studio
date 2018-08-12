@@ -3,7 +3,7 @@
         <div class="col-12">
             <h5 class="section--header section-header__white">PORTFOLIO</h5>
             <h2 class="section--box-outline">
-                03 - COMPLETED PROJECTS
+                03 <span class="sep"></span> COMPLETED PROJECTS
             </h2>
         </div>
     </div>

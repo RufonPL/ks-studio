@@ -1,0 +1,53 @@
+@import '../include_helpers';
+
+.our-services {
+
+  h2, h4, h5, p {
+//    color: #fff;
+  }
+
+  &-side {
+    min-height: 45rem;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &-content {
+    background: $brand-dark;
+    padding: 5rem 3rem;
+  }
+
+  &-list {
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+
+    &-row {
+      display: flex;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+
+    &-image {
+      img {
+        max-width: 3rem;
+        max-height: 3rem;
+      }
+    }
+
+    &-desc {
+      padding-left: 1rem;
+
+      &-header {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        color: #fff;
+      }
+      &-content {
+        font-size: 0.8rem;
+        color: $brand-smoke;
+        font-weight: 300;
+      }
+    }
+  }
+}

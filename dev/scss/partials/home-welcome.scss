@@ -1,2 +1,18 @@
 @import '../include_helpers';
 
+.welcome {
+  padding-bottom: 4.5rem;
+
+  h5, p {
+    color: $brand-smoke
+  }
+
+  &-content {
+    padding-bottom: 4rem;
+
+    &-copy {
+      margin-top: 3.6rem;
+      margin-bottom: 2.6rem;
+    }
+  }
+}
