@@ -32,17 +32,17 @@ h4 { font-size: 1.5rem; }
 h5 { font-size: 1.25rem; }
 h6 { font-size: 1rem; }
 
-a, a:hover, a:active, a:focus, button, button:hover, button:active, button:focus, input:hover, input:active, input:focus, textarea:focus, a[href^=tel],div:active,div:focus {
+a, a:hover, a:active, a:focus, button, button:hover, button:active, button:focus, input:hover, input:active, input:focus, textarea:focus, a[href^=tel],div:active {
   outline: 0;
   text-decoration: none;
   color: inherit;
 }
 
 a {
-  color: #333333;
+  color: $brand-dark;
   transition: .3s;
   &:hover {
-    color: $brand-main;
+    color: $brand-primary;
     transition: .3s color;
   }
 }

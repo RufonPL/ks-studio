@@ -43,6 +43,9 @@
       height: 1px;
       background: rgba(255,255,255,0.7);
     }
+    //&:focus {
+    //  color: #fff;
+    //}
     span {
       color: $brand-main;
     }
@@ -53,6 +56,9 @@
     letter-spacing: 1rem;
     text-shadow: 1px 1px 10px #ccc, -1px -1px 10px #ccc;
     color: #fff;
+    //&:focus {
+    //  color: #fff;
+    //}
     span {
       color: $brand-main;
     }
