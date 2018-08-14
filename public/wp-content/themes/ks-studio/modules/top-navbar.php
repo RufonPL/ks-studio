@@ -1,3 +1,5 @@
+<?php $site_logo = isset(get_field('site_logo', 'options')['sizes']['img_200x150']) ? get_field('site_logo', 'options')['sizes']['img_200x150'] : '';?>
+
 <header class="top-navbar-container">
     <div class="container-fluid">
         <div class="row align-items-center navbar-main">

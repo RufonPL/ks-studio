@@ -28,7 +28,7 @@
 <body>
 
 <div class="onload"
-     style="background-color: #fff; position: fixed; display: block; width: 100vw; height: 100vh; z-index: 3000;">
+     style="background-color: #fff; position: fixed; display: block; width: 100vw; height: 100vh; z-index: 3000000;">
 </div>
 
 <?php renderTemplate('modules/top-navbar.php'); ?>
