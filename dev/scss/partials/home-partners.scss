@@ -1,0 +1,13 @@
+@import '../include_helpers';
+
+.our-partners {
+
+  &-item {
+    margin-bottom: 1rem;
+
+    @media (max-width: 767px){
+      margin-top: 1rem;
+      text-align: center;
+    }
+  }
+}

@@ -15,7 +15,7 @@
             <?php while (have_rows('repeater_partners')) : the_row();
                 $partner_logo = isset(get_sub_field('parters_logo')['sizes']['img_200x150']) ? get_sub_field('parters_logo')['sizes']['img_200x150'] : ''; ?>
                 <div class="col-12 col-md-3 col-lg-2">
-                    <div class="our-partner-item">
+                    <div class="our-partners-item">
                         <img src="<?= $partner_logo ?>" alt="" style="max-width: 100%;">
                     </div>
                 </div>

@@ -9,6 +9,7 @@ import '../scss/partials/home-welcome.scss';
 import '../scss/partials/home-our-services.scss';
 import '../scss/partials/home-portfolio.scss';
 import '../scss/partials/home-tickets.scss';
+import '../scss/partials/home-partners.scss';
 
 
 $(document).ready(function(){

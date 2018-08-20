@@ -20,7 +20,16 @@
   border: 1px solid #fff;
   padding: 1.1rem 1.4rem;
   &.outline__grey {
-    border: 1px solid $brand-smoke;
+    border: 1px solid $brand-dark;
+  }
+  &.color-white {
+    color: #fff;
+  }
+  &.highlight-dark span {
+    color: #000;
+  }
+  &.highlight-primary span {
+    color: $brand-primary;
   }
   span {
     color: $brand-primary;
@@ -41,6 +50,10 @@
     &.sep__white:before {
       content: '';
       background: #fff;
+    }
+    &.sep__grey:before {
+      content: '';
+      background: $brand-smoke;
     }
   }
 }

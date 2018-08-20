@@ -12,8 +12,8 @@ $ourservices_image = isset(get_field('ourservices_image')['sizes']['img_850x850'
         </div>
         <div class="col-12 col-lg-7 our-services-content">
             <h5 class="section--header"><?= $ourservices_top_header ?></h5>
-            <h2 class="section--box-outline">
-                02 <span class="sep sep__white"></span> <?= $ourservices_header ?>
+            <h2 class="section--box-outline color-white highlight-primary">
+                02 <span class="sep sep__grey"></span> <?= $ourservices_header ?>
             </h2>
             <div class="row our-services-list">
                 <?php if (have_rows('repeater_ourservices')):

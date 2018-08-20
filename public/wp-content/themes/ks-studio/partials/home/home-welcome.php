@@ -8,7 +8,7 @@ $welcome_cta = get_field('welcome_cta'); ?>
 
 <div class="container welcome">
     <div class="row">
-        <div class="col-12 col-md-8 welcome-content">
+        <div class="col-md-12 col-lg-8 welcome-content">
             <h5 class="section--header"><?= $welcome_top_header ?></h5>
             <h2 class="section--box-outline outline__grey">
                 01 <span class="sep"></span> <?= $welcome_header ?>
@@ -20,8 +20,12 @@ $welcome_cta = get_field('welcome_cta'); ?>
                 <?= $welcome_cta; ?><i class="fa fa-long-arrow-right"></i>
             </a>
         </div>
-        <div class="col-12 col-md-4 welcome-side">
-            <img src="<?= $welcome_image ?>" alt="">
+        <div class="col-md-12 col-lg-4 welcome-side">
+            <div class="welcome-side-inner">
+                <div class="welcome-image" style="background: url(<?= $welcome_image ?>">
+
+                </div>
+            </div>
         </div>
     </div>
 </div>
